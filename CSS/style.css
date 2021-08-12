@@ -1,23 +1,56 @@
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
+header{
+    margin-bottom: 70px;
+    width: 960px;
+    margin: auto;
+    max-width: 900px; 
+}
+main{
+    width: 900px;
+    margin: auto;
+    max-width: 850px;
+    margin-top: 25px;
+}
 
+footer{
+    margin-top: 50px;
+}
+#ff{
+    margin-top: 400px;
+}
+#a{
+margin-top: 25px;
+margin-left: 0px;
+padding: 3px;
+}
+
+#b{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#e{
+float: left;
+}
+#p{
+    margin-bottom: 25px;
+    float: right;
+}
+#p ul{
+    list-style-type: none;
+     margin: 0px;
+     padding:3px;
+     overflow: hidden;
+     top: 0px;
+}
+#p li{
+    float: left;
+
+}
+
+#l{
+    font-size: 16px;
+    width: 900px;
+    overflow: auto;
+    margin-bottom: 25px;
+}
 label {
     font-size: 1.5em;
   }
@@ -36,4 +69,37 @@ label {
     color:blue;
     text-decoration: line-through;
   }
-  
+#tabel1{
+    width: 500px;
+    float: right;
+}
+#table2{
+    float: right;
+    width: 300px;
+    top: 0px;
+    margin-left: 50px;
+}
+
+#myform{
+    margin-bottom: 25px;
+    position: absolute;
+    background-image: url(https://github.com/LTUC/amman-irbid-201d35/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true);
+
+}
+#left{
+    float: left;
+}
+main button{
+    float: right;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(189, 81, 18)
+}
+
+#copyright{
+    text-align: center;
+     
+}
+#logo{
+     margin-left: 50%;
+}
