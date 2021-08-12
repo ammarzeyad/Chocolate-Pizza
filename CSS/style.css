@@ -1,0 +1,39 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+label {
+    font-size: 1.5em;
+  }
+  
+  input[type = "checkbox"]:checked {
+    text-decoration: line-through;
+  } 
+  /* This is the MDN spec for doing this */
+  
+  /* #cbox3 {
+    color:blue;
+    text-decoration: line-through;
+  } */
+  
+  #cbox3:checked + label {
+    color:blue;
+    text-decoration: line-through;
+  }
+  
